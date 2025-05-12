@@ -1,0 +1,100 @@
+/* Reset básico para evitar inconsistencias en los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y tipografía general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ebcbe4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background: #443053;
+    color: #d38080;    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el título */
+h1 {
+    font-family: 'Permanent Marker'; /* Fuente grafiti */
+    font-size: 2.2em; /* Tamaño más moderado */
+    font-weight: bold; /* Fuente más gruesa */
+    color: #d398ee; /* Color del texto */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+
+/* Navegación de letras y formulario */
+nav, .navigation-form {
+     text-align: center;
+    margin: 20px 0;
+}
+
+nav select, .navigation-form select {
+    padding: 6px;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #989dec;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+nav select:focus, .navigation-form select:focus {
+    border-color: #4A90E2;
+}
+
+/* Contenido principal */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Secciones del glosario */
+section {
+    background-color: #c6a8ec;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+section h2 {
+    color: #2b1a7a;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+/* Listado de glosario */
+section li strong {
+    color: #262036;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #443053;
+    color: #d398ee;
+    font-size: 1em;
+    border-radius: 8px;
+}
+
